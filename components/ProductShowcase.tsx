@@ -14,7 +14,7 @@ export const ProductShowcase = () => {
   const rotateX = useTransform(scrollYProgress, [0, 1], [15, 0]);
   const opacity = useTransform(scrollYProgress, [0, 1], [0.5, 1]);
   return (
-    <div className="bg-black text-white bg-linear-to-b from-black to-[#5D2CA8] py-18 sm:py-24">
+    <div className="bg-black text-white bg-linear-to-b from-black to-[#5D2CA8] py-18 sm:py-24 overflow-x-clip">
       <div className="container">
         <h2 className="text-center text-5xl sm:text-6xl font-bold tracking-tighter">
           Intuitive interface

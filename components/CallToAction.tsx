@@ -16,7 +16,7 @@ export const CallToAction = () => {
 
   return (
     <div
-      className="bg-black text-white py-18 sm:24 text-center"
+      className="bg-black text-white py-18 sm:24 text-center overflow-x-clip"
       ref={containerRef}
     >
       <div className="container max-w-lg relative">
